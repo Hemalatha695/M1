@@ -10,6 +10,7 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -23,13 +24,14 @@ int main() {
     printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
     return 0;
 }
-
+```
 ## OUTPUT:
+```
 Enter first character: A
 Enter second character: B
 Enter third character: C
 Characters in reverse order: C B A
-
+```
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
 
@@ -47,6 +49,7 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -63,11 +66,12 @@ int main() {
 
     return 0;
 }
-
+```
 # OUTPUT:
+```
 Enter a number: 25
 25 is a positive number.
-
+```
 # RESULT:
 Thus the program to read A values and check whether A is positive number or not has been executed successfully.
  
@@ -89,6 +93,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -108,12 +113,13 @@ int main() {
 
     return 0;
 }
-
+```
 ## OUTPUT:
+```
 Enter numerator and denominator of first fraction: 2 5
 Enter numerator and denominator of second fraction: 3 4
 Minimum value between the two fractions: 0.4000
-
+```
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
 
@@ -134,6 +140,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -149,21 +156,12 @@ int main() {
     }
     return 0;
 }
-
+```
 ## OUTPUT:
+```
 Enter a number: 1
 The input value is equal to 1.
-
-
-
-
-
-
-
-
-
-	
-
+```	
 ## RESULT:
 Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
 
@@ -187,6 +185,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -198,13 +197,16 @@ int main() {
     per = tot / 3;
     printf("Total Marks = %.2f\n", tot);
     printf("Percentage = %.2f%%\n", per);
+}
+```
 ## OUTPUT:
+```
 Enter marks of three subjects:
 70 65 75
 Total Marks = 210.00
 Percentage = 70.00%
 Division = First
-
+```
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
 
