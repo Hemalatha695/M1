@@ -13,23 +13,14 @@ Write a C program to read 3 characters one by one and print the characters in a 
 #include <stdio.h>
 
 int main() {
-    // Step 1: Declare three character variables
     char ch1, ch2, ch3;
-
-    // Step 2: Read characters one by one
     printf("Enter first character: ");
-    scanf(" %c", &ch1);
-
+    scanf(" %c", &ch1);\
     printf("Enter second character: ");
     scanf(" %c", &ch2);
-
     printf("Enter third character: ");
     scanf(" %c", &ch3);
-
-    // Step 3: Print characters in reverse order
     printf("Characters in reverse order: %c %c %c\n", ch3, ch2, ch1);
-
-    // Step 4: End the program
     return 0;
 }
 
@@ -59,23 +50,17 @@ Write a C program to read A values and check whether A is positive number or not
 #include <stdio.h>
 
 int main() {
-    // Step 1: Declare a variable to store input
     int A;
-
-    // Step 2: Read the value of A
-    printf("Enter a number: ");
     scanf("%d", &A);
-
-    // Step 3: Check if A is positive
     if (A > 0) {
-        // Step 4: If positive
+
         printf("%d is a positive number.\n", A);
     } else {
-        // Step 5: If not positive
+
         printf("%d is not a positive number.\n", A);
     }
 
-    // Step 6: End the program
+
     return 0;
 }
 
@@ -107,26 +92,18 @@ Write a program to find minimum between two fraction numbers using conditional o
 #include <stdio.h>
 
 int main() {
-    // Step 1: Declare variables
+   
     int num1, den1, num2, den2;
     float frac1, frac2, min;
-
-    // Step 2 & 3: Read first fraction
     printf("Enter numerator and denominator of first fraction: ");
     scanf("%d %d", &num1, &den1);
 
     // Step 4: Read second fraction
     printf("Enter numerator and denominator of second fraction: ");
     scanf("%d %d", &num2, &den2);
-
-    // Step 5: Calculate decimal values of both fractions
     frac1 = (float)num1 / den1;
     frac2 = (float)num2 / den2;
-
-    // Step 6: Use ternary operator to find minimum
     min = (frac1 < frac2) ? frac1 : frac2;
-
-    // Step 7: Print the minimum value
     printf("Minimum value between the two fractions: %.4f\n", min);
 
     return 0;
@@ -160,23 +137,16 @@ Write a C program to check whether the input value is equal to 1 using simple if
 #include <stdio.h>
 
 int main() {
-    // Step 1: Declare a variable to store input
-    int value;
 
-    // Step 2: Read the input value
+    int value;
     printf("Enter a number: ");
     scanf("%d", &value);
-
-    // Step 3: Check if the input is equal to 1
     if (value == 1) {
         // Step 4: If true
         printf("The input value is equal to 1.\n");
     } else {
-        // Step 5: If not true
         printf("The input value is not equal to 1.\n");
     }
-
-    // Step 6: End the program
     return 0;
 }
 
@@ -220,26 +190,14 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 #include <stdio.h>
 
 int main() {
-    // Step 2: Declare variables
     int m1, m2, m3;
     float tot, per;
-
-    // Step 3: Input the marks
     printf("Enter marks of three subjects:\n");
     scanf("%d %d %d", &m1, &m2, &m3);
-
-    // Step 4: Calculate total
     tot = m1 + m2 + m3;
-
-    // Step 5: Calculate percentage
     per = tot / 3;
-
-    // Step 6: Display total and percentage
     printf("Total Marks = %.2f\n", tot);
     printf("Percentage = %.2f%%\n", per);
-
-    // Step 7–9: Determine Division
-
 ## OUTPUT:
 Enter marks of three subjects:
 70 65 75
