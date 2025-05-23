@@ -82,6 +82,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 int main()
 {
@@ -91,6 +92,7 @@ int main()
     printf("Minimum between %d and %d is %d",a,b,min);
     return 0;
 }
+```
 
    
 ## OUTPUT:
@@ -116,6 +118,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 int main()
 {
@@ -124,6 +127,7 @@ int main()
     if(a==1)
        printf("TRUE");
 }
+```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/ee9cbb05-aae6-4041-abb3-24b6e7d29e9f)
 
@@ -150,6 +154,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -182,6 +187,7 @@ int main() {
 
     return 0;
 }
+```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/087fbb5e-e50f-4675-91ba-0b6dcbb79915)
 
