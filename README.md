@@ -84,19 +84,31 @@ Write a program to find minimum between two fraction numbers using conditional o
 ## PROGRAM:
 ```
 #include <stdio.h>
-int main()
-{
-    int a,b,min;
-    scanf("%d%d",&a,&b);
-    min=(a<b)? a:b;
-    printf("Minimum between %d and %d is %d",a,b,min);
+
+int main() {
+    float a, b, c, d, frac1, frac2, min;
+
+    printf("Enter numerator and denominator for first fraction (a/b): ");
+    scanf("%f %f", &a, &b);
+
+    printf("Enter numerator and denominator for second fraction (c/d): ");
+    scanf("%f %f", &c, &d);
+
+    frac1 = a / b;
+    frac2 = c / d;
+
+    min = (frac1 < frac2) ? frac1 : frac2;
+
+    printf("Minimum of %.2f/%.2f and %.2f/%.2f is %.2f\n", a, b, c, d, min);
+
     return 0;
 }
+
 ```
 
    
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/a18169f1-b2e5-4376-b9cf-45971b67eeaf)
+![image](https://github.com/user-attachments/assets/fb8b05be-6576-4e39-bea3-038d3b28b08f)
 
 ## RESULT:
 Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
